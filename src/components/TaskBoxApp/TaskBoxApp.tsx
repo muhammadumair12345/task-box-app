@@ -1,13 +1,13 @@
 import React, { FC } from "react";
-import { Containers1X } from "../TaskBoxContainer/TaskBoxContainer.stories";
+import TaskBoxContainer from "../TaskBoxContainer/TaskBoxContainer";
 import { App, GlobalStyle } from "./TaskBoxApp.style";
 
-const TaskBoxApp: FC<TaskBoxAppProps> = ({ backgroundColor = "purple" }) => {
+const TaskBoxApp: FC<TaskBoxAppProps> = ({ backgroundColor = "#a02f8a" }) => {
   return (
     <>
       <GlobalStyle />
       <App backgroundColor={backgroundColor}>
-        <Containers1X />
+        <TaskBoxContainer />
       </App>
     </>
   );

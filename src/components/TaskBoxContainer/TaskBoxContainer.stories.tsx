@@ -11,19 +11,15 @@ const Template: Story<TaskBoxContainerProps> = (args) => (
 );
 
 export const Containers1X = Template.bind({});
-Containers1X.args = {
-  background: "purple",
-  width: "50vw",
-};
 
 export const Containers2X = Template.bind({});
 Containers2X.args = {
-  background: "blue",
-  width: "60vw",
+  background: "linear-gradient(#242575, #4c78d891)",
+  width: "600",
 };
 
 export const Containers3X = Template.bind({});
 Containers3X.args = {
-  background: "green",
-  width: "70vw",
+  background: "linear-gradient(#24753b, #5bdd4aa7)",
+  width: "650",
 };

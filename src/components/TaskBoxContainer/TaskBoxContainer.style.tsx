@@ -1,16 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: ${({ width }: TaskBoxContainerProps) => width};
-  height: 70vh;
+  width: ${({ width }: TaskBoxContainerProps) => width + `px`};
+  min-height: 70vh;
   display: flex;
+  padding: 1.2rem;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: ${({ background }: TaskBoxContainerProps) =>
-    background === "purple"
-      ? "linear-gradient(#f00, #dc181891)"
-      : background === "blue"
-      ? "linear-gradient(#d8a61b, #dcc81891)"
-      : "linear-gradient(#002fff, #185ddca7)"};
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  background: ${({ background }: TaskBoxContainerProps) => background};
 `;

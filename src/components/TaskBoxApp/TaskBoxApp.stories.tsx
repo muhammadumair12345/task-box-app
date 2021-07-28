@@ -12,10 +12,10 @@ export const TaskBoxAppPurple = Template.bind({});
 
 export const TaskBoxAppBlue = Template.bind({});
 TaskBoxAppBlue.args = {
-  backgroundColor: "blue",
+  backgroundColor: "#242575",
 };
 
 export const TaskBoxAppGreen = Template.bind({});
 TaskBoxAppGreen.args = {
-  backgroundColor: "green",
+  backgroundColor: "#24753b",
 };

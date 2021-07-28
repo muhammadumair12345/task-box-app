@@ -15,12 +15,9 @@ export const App = styled.div`
   width: 100vw;
   height: 100vh;
   display: flex;
+  padding: 2rem;
   justify-content: center;
   align-items: center;
   background-color: ${({ backgroundColor }: TaskBoxAppProps) =>
-    backgroundColor === "purple"
-      ? "#a02f8a"
-      : backgroundColor === "blue"
-      ? "#242575"
-      : "#24753b"};
+    backgroundColor};
 `;
