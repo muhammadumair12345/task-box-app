@@ -7,6 +7,10 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: ${({ borderWidth }: TaskBoxContainerProps) => borderWidth} dotted
-    #9e6f39;
+  background: ${({ background }: TaskBoxContainerProps) =>
+    background === "purple"
+      ? "linear-gradient(#f00, #dc181891)"
+      : background === "blue"
+      ? "linear-gradient(#d8a61b, #dcc81891)"
+      : "linear-gradient(#002fff, #185ddca7)"};
 `;

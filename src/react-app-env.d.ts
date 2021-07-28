@@ -6,14 +6,6 @@ interface TaskBoxAppProps {
 }
 
 interface TaskBoxContainerProps {
-  borderWidth: string;
-  width: string;
-}
-
-interface TaskBoxInputProps {
-  width: string;
-}
-
-interface TaskBoxButtonProps {
-  varient: string;
+  background?: string;
+  width?: string;
 }

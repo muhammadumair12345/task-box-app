@@ -18,9 +18,9 @@ export const App = styled.div`
   justify-content: center;
   align-items: center;
   background-color: ${({ backgroundColor }: TaskBoxAppProps) =>
-    backgroundColor === "light"
-      ? "#d1cece"
-      : backgroundColor === "gray"
-      ? "#615c5c"
-      : "#000"};
+    backgroundColor === "purple"
+      ? "#a02f8a"
+      : backgroundColor === "blue"
+      ? "#242575"
+      : "#24753b"};
 `;
