@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: ${({ width }: TaskBoxContainerProps) => width + `px`};
-  min-height: 70vh;
+  height: 65vh;
   display: flex;
   padding: 1.2rem;
   flex-direction: column;
