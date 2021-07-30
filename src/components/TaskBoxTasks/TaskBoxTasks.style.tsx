@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const TaskList = styled.ul`
   list-style-type: none;
+  flex-grow: 1;
   margin-top: 2.5rem;
   padding: 0.2rem;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   ::-webkit-scrollbar {
     width: 0.3rem;
@@ -34,4 +35,9 @@ export const TaskItem = styled.li`
   :last-child {
     margin-bottom: 0;
   }
+`;
+
+export const Item = styled.div`
+  color: #fb937d;
+  cursor: pointer;
 `;
