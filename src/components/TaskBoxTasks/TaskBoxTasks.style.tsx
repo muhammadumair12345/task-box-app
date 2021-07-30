@@ -22,6 +22,7 @@ export const TaskList = styled.ul`
 
 export const TaskItem = styled.li`
   background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   display: flex;
   align-items: center;
