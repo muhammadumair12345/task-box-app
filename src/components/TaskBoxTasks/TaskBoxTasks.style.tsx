@@ -28,7 +28,7 @@ export const TaskItem = styled.li`
   align-items: center;
   justify-content: space-between;
   height: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   padding: 1.5rem;
   border-radius: 0.2rem;
   :last-child {
