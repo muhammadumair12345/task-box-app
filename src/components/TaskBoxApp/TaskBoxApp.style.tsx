@@ -16,7 +16,7 @@ export const App = styled.div`
   width: 100vw;
   min-height: 100vh;
   display: flex;
-  padding: 2rem;
+  padding: 1rem;
   justify-content: center;
   align-items: center;
   background-color: ${({ backgroundColor }: TaskBoxAppProps) =>
