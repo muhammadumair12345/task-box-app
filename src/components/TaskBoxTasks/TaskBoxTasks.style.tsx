@@ -24,13 +24,12 @@ export const TaskList = styled.ul`
 export const TaskItem = styled.li`
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 3rem;
   margin-bottom: 1.2rem;
-  padding: 1.5rem;
+  padding: 0 1.5rem;
   border-radius: 0.2rem;
   :last-child {
     margin-bottom: 0;
