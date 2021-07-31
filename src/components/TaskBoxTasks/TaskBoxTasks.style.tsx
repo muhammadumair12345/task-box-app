@@ -39,5 +39,7 @@ export const TaskItem = styled.li`
 
 export const Item = styled.div`
   color: #fb937d;
-  cursor: pointer;
+  :nth-child(odd) {
+    cursor: pointer;
+  }
 `;
